@@ -6,14 +6,13 @@ export const useARStatus = (data) => {
 
   const update = (result) => {
     SetSupport(result);
-  }
+  };
 
   useEffect(() => {
-    if (data == null) console.log("bos")
-    let src = data.split('.');
-    if (src[src.length - 1] == "glb") update(true);
-  }, [isSupport])
+    if (data == null) console.log("bos");
+    let src = data.split(".");
+    if (src[src.length - 1] === "glb") update(true);
+  }, [data, isSupport]);
 
   return isSupport;
-}
-
+};

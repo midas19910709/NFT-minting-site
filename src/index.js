@@ -5,7 +5,6 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import Home from "./pages/Home";
-import Create from "./pages/Create";
 import Explore from "./pages/Explore";
 
 import NFTDetail from "./pages/NFTDetail";

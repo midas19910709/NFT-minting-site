@@ -1,6 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState } from "react";
 import "../styles/NFTCard.css";
-import { FaEthereum } from "react-icons/fa";
 import { Icon } from "@iconify/react";
 import { ColorExtractor } from "react-color-extractor";
 import Card from "./base/Card";
@@ -16,7 +16,7 @@ const NFTCard = ({ nftName, price, nftSrc, sale, onClick }) => {
 
   useEffect(() => {
     console.log(isARSupport);
-  }, []);
+  }, [isARSupport]);
 
   const getColors = (colors) => {
     setColors((c) => [...c, ...colors]);

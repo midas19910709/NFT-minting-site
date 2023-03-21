@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router";
@@ -5,7 +6,7 @@ import Card from "../components/base/Card";
 import "../styles/NFTDetail.css";
 import { ColorExtractor } from "react-color-extractor";
 import Button from "../components/base/Button";
-import { FaEthereum, FaHome, FaExclamationCircle } from "react-icons/fa";
+import { FaHome, FaExclamationCircle } from "react-icons/fa";
 import { Icon } from "@iconify/react";
 import { useMobile } from "../hooks/isMobile";
 import { useARStatus } from "../hooks/isARStatus";

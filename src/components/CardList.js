@@ -35,7 +35,7 @@ const CardList = ({ list, type = "horizontal", siteName, nftName }) => {
     contract.methods.PRICE().call(function (err, result) {
       setPrice(web3.utils.fromWei(result, "ether"));
     });
-  }, [nftName]);
+  }, [contract.methods, nftName]);
 
   return (
     <div
