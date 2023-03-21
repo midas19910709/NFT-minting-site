@@ -1,0 +1,19 @@
+#list-container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 100px;
+}
+#loading {
+    color:white;
+    margin:auto;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    display:inline;
+}
+#loading.div{
+    align-items:center;
+}
