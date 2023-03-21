@@ -31,6 +31,7 @@
     "web3": "^1.8.2"
   },
   "scripts": {
+    "vercel-build": "npm install node-gyp",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
